@@ -2,8 +2,8 @@ import sys
 import os
 from PIL import Image
 
-path = r"C:/Users/guest1/Desktop/img"
-directory = r"C:/Users/guest1/OneDrive/Documents/python tools/converted"
+path = r"your_local_path/img"
+directory = r"directory/where_you_want_to_save_your_work/converted"
 if not os.path.exists(directory):
     os.makedirs(directory)
 
