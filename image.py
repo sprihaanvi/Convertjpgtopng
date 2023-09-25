@@ -2,7 +2,7 @@ import sys
 import os
 from PIL import Image
 
-path = r"your_local_path/img"
+path = r"your_local_path/which_contains_all_images/img"
 directory = r"directory/where_you_want_to_save_your_work/converted"
 if not os.path.exists(directory):
     os.makedirs(directory)
